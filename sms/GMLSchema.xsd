@@ -1,0 +1,14 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Template" type="GojiSMSTemplate"/>
+    <xs:complexType name="GojiSMSTemplate">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="data" type="GojiSMSData"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="GojiSMSData">
+        <xs:sequence>
+            <xs:element name="variable" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

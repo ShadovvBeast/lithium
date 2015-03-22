@@ -1,6 +1,6 @@
 <Template>
-  <name>string</name>
+  <name>Default</name>
   <data>
-    <variable>string</variable>
+      Hey <variable>Name</variable> we just wanted to welcome you to the <variable>Business</variable> family
   </data>
 </Template>

@@ -1,6 +1,6 @@
 <Template>
   <name>Default</name>
   <data>
-      Hey <variable>Name</variable> we just wanted to welcome you to the <variable>Business</variable> family
+      Hey &#x3C;variable&#x3E;Name&#x3C;/variable&#x3E; we just wanted to welcome you to the &#x3C;variable&#x3E;Business&#x3C;/variable&#x3E; family
   </data>
 </Template>
